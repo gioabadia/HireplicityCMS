@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>CREATE NEW ARTICLE</h1>
+    <h1>MAKE NEW ARTICLE</h1>
     <form method="POST" action="\articles">
         @csrf
         <div>
